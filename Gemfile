@@ -8,6 +8,7 @@ gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'simple_form'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
@@ -31,6 +32,8 @@ gem 'jbuilder', '~> 1.2'
 
 #Use will_paginate library
 gem 'will_paginate'
+
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
