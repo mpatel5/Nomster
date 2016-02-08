@@ -11,9 +11,10 @@
 
   <% if place.photos.present? %>
   <div class="col-xs-12 text-center">
-    <%= image_tag place.photos.last.picture, :alt => place.photos.last.caption, :class => 'img-responsive picture-height'%>
+    <%= image_tag place.photos.last.picture, :class => 'img-responsive picture-height'%>
   </div>
   <% end %>
+  
 
   <% if place.comments.present? %>
   <div class="col-xs-12">
